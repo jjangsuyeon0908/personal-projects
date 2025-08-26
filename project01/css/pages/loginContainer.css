@@ -1,0 +1,266 @@
+/*container 시작*/
+
+.container {
+  width: 100%;
+  height: auto;
+  padding-top: 73px;
+}
+
+.container .inner-container {
+  padding: 50px 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.container .inner-container .login {
+  flex: 0 1 450px;
+  height: auto;
+}
+
+.container .inner-container .login .sec-con {
+  width: 100%;
+  height: auto;
+  padding: 40px 0px;
+  box-sizing: border-box;
+}
+
+
+.container .inner-container .login .sec-con .login-form {
+  width: 100%;
+  height: auto;
+}
+
+.container .inner-container .login .sec-con .login-form h1.title.signIn {
+  width: 100%;
+  height: auto;
+  color: #31271d;
+  text-align: center;
+  font-family: 'Pretendard-SemiBold';
+  font-size: 24px;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+}
+
+.container .inner-container .login .sec-con .login-form .login-con {
+  width: 100%;
+  height: auto;
+  color: black;
+}
+
+.container .inner-container .login .sec-con .login-form .login-con .login-outline {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container .inner-container .login .sec-con .login-form .login-con .login-outline .login-top {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .inner-container .login .sec-con .login-form .login-con .login-outline .login-top .login-left{
+  flex: 0 1 400px;
+  height: auto;
+}
+.container .inner-container .login .sec-con .login-form .login-con .login-outline .login-top .login-left>ul {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container .inner-container .login .sec-con .login-form .login-con .login-outline .login-top .login-left>ul>li {
+  width: 100%;
+  height: auto;
+}
+
+.container .inner-container .login .sec-con .login-form .login-con .login-outline .login-top .login-left>ul>li input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgba(180, 179, 179, 0.541);
+  box-sizing: border-box;
+}
+.container .inner-container .login .sec-con .login-form .login-con .login-outline .login-top .login-left>ul>li:nth-child(1) input{
+  margin-bottom: 10px;
+}
+
+
+.container .inner-container .login .sec-con .login-form .login-con .login-outline .login-top .login-left>ul>li input[type=text]{
+  text-indent: 5px;
+}
+.container .inner-container .login .sec-con .login-form .login-con .login-outline .login-top .login-left>ul>li input[type=password]{
+  text-indent: 5px;
+}
+
+.container .inner-container .login .sec-con .login-form .login-con .login-outline .login-top .login-left>ul>li input::placeholder {
+  font-family: 'Pretendard-Regular';
+  text-indent: 5px;
+}
+
+.container .inner-container .login .sec-con .login-form .login-con .login-outline .login-right {
+  flex: 0 1 150px;
+  height: auto;
+  padding: 15px 0 15px 10px;
+  box-sizing: border-box;
+}
+
+.container .inner-container .login .sec-con .login-form .login-con .login-outline .login-right input {
+  width: 100%;
+  height: 80px;
+  cursor: pointer;
+  font-family: 'Pretendard-Regular';
+  font-size: 2.2rem;
+  color: #31271d;
+  background-color: #ffccd1;
+  border: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.container .inner-container .login .sec-con .login-form .login-con .login-outline .login-right input:hover {
+  background-color: #fda3ac;
+  box-shadow: 0px 1px 2px rgba(128, 128, 128, 0.226);
+  color: white;
+}
+.container .inner-container .login .sec-con .login-form .login-con .login-outline .login-ctr{
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+.container .inner-container .login .sec-con .login-form .login-con .login-outline .login-ctr>ul{
+  display: flex;
+  justify-content: space-between;
+}
+.container .inner-container .login .sec-con .login-form .login-con .login-outline .login-ctr>ul>li{
+  display: flex;
+  justify-content: space-between;
+}
+.container .inner-container .login .sec-con .login-form .login-con .login-outline .login-ctr>ul>li input{
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+.container .inner-container .login .sec-con .login-form .login-con .login-outline .login-ctr>ul>li label{
+  font-family: 'Pretendard-ExtraLight';
+  font-size: 1.4rem;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+.container .inner-container .login .sec-con .login-form .login-con .join-outline {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+.container .inner-container .login .sec-con .login-form .login-con .join-outline::before{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #31271d71;
+  margin-bottom: 20px;
+}
+
+.container .inner-container .login .sec-con .login-form .login-con .join-outline .join {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.container .inner-container .login .sec-con .login-form .login-con .join-outline .join p {
+  font-family: 'Pretendard-ExtraLight';
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.container .inner-container .login .sec-con .login-form .login-con .join-outline .join-search {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .inner-container .login .sec-con .login-form .login-con .join-outline .join-search p {
+  font-family: 'Pretendard-ExtraLight';
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.container .inner-container .login .sec-con .login-form .login-con .join-outline .join button {
+  width: 100px;
+  height: 30px;
+  font-family: 'Pretendard-ExtraLight';
+  font-size: 15px;
+  background-color: #ffffff;
+  border: 0;
+  border: 1px solid  #ffccd1;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.container .inner-container .login .sec-con .login-form .login-con .join-outline .join button:hover {
+  background-color: #ffccd1;
+  box-shadow: 0px 1px 2px rgba(128, 128, 128, 0.226);
+}
+
+.container .inner-container .login .sec-con .login-form .login-con .join-outline .join-search button {
+  width: 150px;
+  height: 30px;
+  font-family: 'Pretendard-ExtraLight';
+  font-size: 15px;
+  background-color: #ffffff;
+  border: 0;
+  border: 1px solid  #ffccd1;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.container .inner-container .login .sec-con .login-form .login-con .join-outline .join-search button:hover {
+  background-color: #ffccd1;
+  box-shadow: 0px 1px 2px rgba(128, 128, 128, 0.226);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*태블릿버전*/
+@media only screen and (max-width:1019px) {
+
+}
+
+/*모바일버전*/
+@media only screen and (max-width:680px) {
+
+  .container .inner-container .login {
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  .container .inner-container .login .sec-con .login-form .login-con .join-outline .join p {
+    font-size: 1.4rem;
+  }
+  .container .inner-container .login .sec-con .login-form .login-con .join-outline .join button {
+    font-size: 1.4rem;
+  }
+  .container .inner-container .login .sec-con .login-form .login-con .join-outline .join-search p {
+    font-size: 1.4rem;
+  }
+  .container .inner-container .login .sec-con .login-form .login-con .join-outline .join-search button {
+    font-size: 1.4rem;
+  }
+  
+}

@@ -1,745 +1,716 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>자주하는 질문 FAQ</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="format-detection" content="telephone=no">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="../css/responsive/css/reset.css">
-    <link rel="stylesheet" href="../css/responsive/css/common.css">
-    <link rel="stylesheet" href="../css/ck_editor.css">
-    <link rel="stylesheet" href="../css/swiper.min.css">
-    <link rel="stylesheet" href="../css/jquery-ui-1.9.2.custom.min.css">
-    <link rel="stylesheet" href="./style.css">
-
-    <!-- JS -->
-    <script src="../js/jquery-1.8.3.min.js"></script>
-    <script src="../js/jquery-ui-1.9.2.custom.min.js"></script>
-    <script src="../js/popup_lib.js"></script>
-    <script src="../js/Util.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:image" content="img/sumnail.jpg">
+  <title>나의 세계, Mamonde | 마몽드 한국 공식 웹사이트</title>
+  <script src="js/indexContainer.js" defer></script>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="icon" href="img/header/favicon.png" type="img/x-icon" sizes="16x16">
 </head>
+
 <body>
-    <div class="faq_wrap">
-        <div class="top-cont">
-        <div class="top-inner">
-            <div class="main-tit">
-                <a href=""><img src="./img/main_tit.png" alt="자주하는 질문(PC)"></a>
-            </div>
-            <div class="faq-sch">
-            <input type="text" id="search_word" placeholder="찾고자 하는 단어 또는 문장을 입력해주세요.">
-            <div class="sch-img">
-                <a href=""><img src="./img/sch.png" alt="돋보기"></a>
-            </div>
-            </div>
-        </div>
-        </div>
-
-        <div class="mid-cont">
-            <div class="mid-inner">
-                <div class="tab-container">
-                    <div class="tab-faq js-bt-tab">
-                        <a href="#" class="faq-list on">전체</a>
-                        <a href="#" class="faq-list">운영/상담</a>
-                        <a href="#" class="faq-list">모집</a>
-                        <a href="#" class="faq-list">입학</a>
-                        <a href="#" class="faq-list">바른공부 자습전용관</a>
+  <div id="wrap">
+    <div class="header">
+      <div class="inner-header">
+        <div class="nav">
+          <h1 class="logo"><a href="index.html"><img src="img/header/logo_0.png" alt="logo"></a></h1>
+          <div class="nav-menu">
+            <div class="left-menu">
+              <span class="menu"><img src="img/header/m_menu_0.png" alt="M-menu">
+                <div class="m-gnb">
+                  <div class="menu-con">
+                    <div class="top-menu">
+                      <h1 class="m-logo"><a href="index.html"><img src="img/header/logo_1.png" alt="logo"></a></h1>
+                      <button class="m-gnb-closeBtn">
+                        <span><img src="img/header/m_close_1.png" alt="closeBtn"></span>
+                      </button>
                     </div>
-                    <div class="cont-faq js-tab-cont on">
-                        <div class="faq-content on" data-tab="전체">
-                            <div class="acdn-wrap">
-                                <div id="FaqList">
-                                    <ul id="ac">
-                                        <li class="menu">
-                                            <a href="" class="slide" id="55">
-                                                <span class="ask">
-                                                    <span class="label">
-                                                        <span class="tag">전체</span>
-                                                    </span>
-                                                    <span class="tit">
-                                                        <span class="icon">
-                                                            <p><img src="./img/q.png" alt="q"></p>
-                                                        </span>
-                                                        <span class="tit-inner">[급식] 급식 신청은 어떻게 하나요?</span>
-                                                    </span>
-                                                </span>
-                                                <span class="arrow">
-                                                    <p><img src="./img/arrow.png" alt=""></p>
-                                                </span>
-                                            </a>
-                                            <div class="menu-con ck ck-content">
-                                                <p>
-                                                    고3 모집시기와 동일하게 운영되나 썸머스쿨 기간은 수능이 더 가까운 N수, 고3, 고2 순으로 우선 모집되며, 잔여석에 한하여 문의를 통해 입학이 가능합니다. 썸머스쿨 기간 입학 희망 시 학원으로 별도 문의 바랍니다.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li class="menu">
-                                            <a href="" class="slide" id="55">
-                                                <span class="ask">
-                                                    <span class="label">
-                                                        <span class="tag">전체</span>
-                                                    </span>
-                                                    <span class="tit">
-                                                        <span class="icon">
-                                                            <p><img src="./img/q.png" alt="q"></p>
-                                                        </span>
-                                                        <span class="tit-inner">[급식] 급식 신청은 어떻게 하나요?</span>
-                                                    </span>
-                                                </span>
-                                                <span class="arrow">
-                                                    <p><img src="./img/arrow.png" alt=""></p>
-                                                </span>
-                                            </a>
-                                            <div class="menu-con ck ck-content">
-                                                <p>
-                                                    고3 모집시기와 동일하게 운영되나 썸머스쿨 기간은 수능이 더 가까운 N수, 고3, 고2 순으로 우선 모집되며, 잔여석에 한하여 문의를 통해 입학이 가능합니다. 썸머스쿨 기간 입학 희망 시 학원으로 별도 문의 바랍니다.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li class="menu">
-                                            <a href="" class="slide" id="55">
-                                                <span class="ask">
-                                                    <span class="label">
-                                                        <span class="tag">전체</span>
-                                                    </span>
-                                                    <span class="tit">
-                                                        <span class="icon">
-                                                            <p><img src="./img/q.png" alt="q"></p>
-                                                        </span>
-                                                        <span class="tit-inner">[급식] 급식 신청은 어떻게 하나요?</span>
-                                                    </span>
-                                                </span>
-                                                <span class="arrow">
-                                                    <p><img src="./img/arrow.png" alt=""></p>
-                                                </span>
-                                            </a>
-                                            <div class="menu-con ck ck-content">
-                                                <p>
-                                                    고3 모집시기와 동일하게 운영되나 썸머스쿨 기간은 수능이 더 가까운 N수, 고3, 고2 순으로 우선 모집되며, 잔여석에 한하여 문의를 통해 입학이 가능합니다. 썸머스쿨 기간 입학 희망 시 학원으로 별도 문의 바랍니다.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li class="menu">
-                                            <a href="" class="slide" id="55">
-                                                <span class="ask">
-                                                    <span class="label">
-                                                        <span class="tag">전체</span>
-                                                    </span>
-                                                    <span class="tit">
-                                                        <span class="icon">
-                                                            <p><img src="./img/q.png" alt="q"></p>
-                                                        </span>
-                                                        <span class="tit-inner">[급식] 급식 신청은 어떻게 하나요?</span>
-                                                    </span>
-                                                </span>
-                                                <span class="arrow">
-                                                    <p><img src="./img/arrow.png" alt=""></p>
-                                                </span>
-                                            </a>
-                                            <div class="menu-con ck ck-content">
-                                                <p>
-                                                    고3 모집시기와 동일하게 운영되나 썸머스쿨 기간은 수능이 더 가까운 N수, 고3, 고2 순으로 우선 모집되며, 잔여석에 한하여 문의를 통해 입학이 가능합니다. 썸머스쿨 기간 입학 희망 시 학원으로 별도 문의 바랍니다.
-                                                </p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="paging-wrap">
-                                    <div class="paging">
-                                        <a href="" class="pag-prev">
-                                            <span class="ir i-pag-prev"></span>
-                                        </a>
-                                        <span class="num">
-                                            <a href="" class="active">1</a>
-                                            <a href="" class="bg_none">2</a>
-                                            <a href="" class="bg_none">3</a>
-                                            <a href="" class="bg_none">4</a>
-                                            <a href="" class="bg_none">5</a>
-                                            <a href="" class="bg_none">6</a>
-                                            <a href="" class="bg_none">7</a>
-                                            <a href="" class="bg_none">8</a>
-                                        </span>
-                                        <a href="" class="pag-next">
-                                            <span class="ir i-pag-next"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="faq-content" data-tab="운영/상담">
-                            <div class="acdn-wrap">
-                                <div id="FaqList">
-                                    <ul id="ac">
-                                        <li class="menu">
-                                            <a href="" class="slide" id="55">
-                                                <span class="ask">
-                                                    <span class="label">
-                                                        <span class="tag">운영/상담</span>
-                                                    </span>
-                                                    <span class="tit">
-                                                        <span class="icon">
-                                                            <p><img src="./img/q.png" alt="q"></p>
-                                                        </span>
-                                                        <span class="tit-inner">[급식] 급식 신청은 어떻게 하나요?</span>
-                                                    </span>
-                                                </span>
-                                                <span class="arrow">
-                                                    <p><img src="./img/arrow.png" alt=""></p>
-                                                </span>
-                                            </a>
-                                            <div class="menu-con ck ck-content">
-                                                <p>
-                                                    고3 모집시기와 동일하게 운영되나 썸머스쿨 기간은 수능이 더 가까운 N수, 고3, 고2 순으로 우선 모집되며, 잔여석에 한하여 문의를 통해 입학이 가능합니다. 썸머스쿨 기간 입학 희망 시 학원으로 별도 문의 바랍니다.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li class="menu">
-                                            <a href="" class="slide" id="55">
-                                                <span class="ask">
-                                                    <span class="label">
-                                                        <span class="tag">운영/상담</span>
-                                                    </span>
-                                                    <span class="tit">
-                                                        <span class="icon">
-                                                            <p><img src="./img/q.png" alt="q"></p>
-                                                        </span>
-                                                        <span class="tit-inner">[급식] 급식 신청은 어떻게 하나요?</span>
-                                                    </span>
-                                                </span>
-                                                <span class="arrow">
-                                                    <p><img src="./img/arrow.png" alt=""></p>
-                                                </span>
-                                            </a>
-                                            <div class="menu-con ck ck-content">
-                                                <p>
-                                                    고3 모집시기와 동일하게 운영되나 썸머스쿨 기간은 수능이 더 가까운 N수, 고3, 고2 순으로 우선 모집되며, 잔여석에 한하여 문의를 통해 입학이 가능합니다. 썸머스쿨 기간 입학 희망 시 학원으로 별도 문의 바랍니다.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li class="menu">
-                                            <a href="" class="slide" id="55">
-                                                <span class="ask">
-                                                    <span class="label">
-                                                        <span class="tag">운영/상담</span>
-                                                    </span>
-                                                    <span class="tit">
-                                                        <span class="icon">
-                                                            <p><img src="./img/q.png" alt="q"></p>
-                                                        </span>
-                                                        <span class="tit-inner">[급식] 급식 신청은 어떻게 하나요?</span>
-                                                    </span>
-                                                </span>
-                                                <span class="arrow">
-                                                    <p><img src="./img/arrow.png" alt=""></p>
-                                                </span>
-                                            </a>
-                                            <div class="menu-con ck ck-content">
-                                                <p>
-                                                    고3 모집시기와 동일하게 운영되나 썸머스쿨 기간은 수능이 더 가까운 N수, 고3, 고2 순으로 우선 모집되며, 잔여석에 한하여 문의를 통해 입학이 가능합니다. 썸머스쿨 기간 입학 희망 시 학원으로 별도 문의 바랍니다.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li class="menu">
-                                            <a href="" class="slide" id="55">
-                                                <span class="ask">
-                                                    <span class="label">
-                                                        <span class="tag">운영/상담</span>
-                                                    </span>
-                                                    <span class="tit">
-                                                        <span class="icon">
-                                                            <p><img src="./img/q.png" alt="q"></p>
-                                                        </span>
-                                                        <span class="tit-inner">[급식] 급식 신청은 어떻게 하나요?</span>
-                                                    </span>
-                                                </span>
-                                                <span class="arrow">
-                                                    <p><img src="./img/arrow.png" alt=""></p>
-                                                </span>
-                                            </a>
-                                            <div class="menu-con ck ck-content">
-                                                <p>
-                                                    고3 모집시기와 동일하게 운영되나 썸머스쿨 기간은 수능이 더 가까운 N수, 고3, 고2 순으로 우선 모집되며, 잔여석에 한하여 문의를 통해 입학이 가능합니다. 썸머스쿨 기간 입학 희망 시 학원으로 별도 문의 바랍니다.
-                                                </p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="paging-wrap">
-                                    <div class="paging">
-                                        <a href="" class="pag-prev">
-                                            <span class="ir i-pag-prev"></span>
-                                        </a>
-                                        <span class="num">
-                                            <a href="" class="active">1</a>
-                                            <a href="" class="bg_none">2</a>
-                                            <a href="" class="bg_none">3</a>
-                                            <a href="" class="bg_none">4</a>
-                                            <a href="" class="bg_none">5</a>
-                                            <a href="" class="bg_none">6</a>
-                                            <a href="" class="bg_none">7</a>
-                                            <a href="" class="bg_none">8</a>
-                                        </span>
-                                        <a href="" class="pag-next">
-                                            <span class="ir i-pag-next"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="faq-content" data-tab="모집">
-                            <div class="acdn-wrap">
-                                <div id="FaqList">
-                                    <ul id="ac">
-                                        <li class="menu">
-                                            <a href="" class="slide" id="55">
-                                                <span class="ask">
-                                                    <span class="label">
-                                                        <span class="tag">모집</span>
-                                                    </span>
-                                                    <span class="tit">
-                                                        <span class="icon">
-                                                            <p><img src="./img/q.png" alt="q"></p>
-                                                        </span>
-                                                        <span class="tit-inner">[급식] 급식 신청은 어떻게 하나요?</span>
-                                                    </span>
-                                                </span>
-                                                <span class="arrow">
-                                                    <p><img src="./img/arrow.png" alt=""></p>
-                                                </span>
-                                            </a>
-                                            <div class="menu-con ck ck-content">
-                                                <p>
-                                                    고3 모집시기와 동일하게 운영되나 썸머스쿨 기간은 수능이 더 가까운 N수, 고3, 고2 순으로 우선 모집되며, 잔여석에 한하여 문의를 통해 입학이 가능합니다. 썸머스쿨 기간 입학 희망 시 학원으로 별도 문의 바랍니다.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li class="menu">
-                                            <a href="" class="slide" id="55">
-                                                <span class="ask">
-                                                    <span class="label">
-                                                        <span class="tag">모집</span>
-                                                    </span>
-                                                    <span class="tit">
-                                                        <span class="icon">
-                                                            <p><img src="./img/q.png" alt="q"></p>
-                                                        </span>
-                                                        <span class="tit-inner">[급식] 급식 신청은 어떻게 하나요?</span>
-                                                    </span>
-                                                </span>
-                                                <span class="arrow">
-                                                    <p><img src="./img/arrow.png" alt=""></p>
-                                                </span>
-                                            </a>
-                                            <div class="menu-con ck ck-content">
-                                                <p>
-                                                    고3 모집시기와 동일하게 운영되나 썸머스쿨 기간은 수능이 더 가까운 N수, 고3, 고2 순으로 우선 모집되며, 잔여석에 한하여 문의를 통해 입학이 가능합니다. 썸머스쿨 기간 입학 희망 시 학원으로 별도 문의 바랍니다.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li class="menu">
-                                            <a href="" class="slide" id="55">
-                                                <span class="ask">
-                                                    <span class="label">
-                                                        <span class="tag">모집</span>
-                                                    </span>
-                                                    <span class="tit">
-                                                        <span class="icon">
-                                                            <p><img src="./img/q.png" alt="q"></p>
-                                                        </span>
-                                                        <span class="tit-inner">[급식] 급식 신청은 어떻게 하나요?</span>
-                                                    </span>
-                                                </span>
-                                                <span class="arrow">
-                                                    <p><img src="./img/arrow.png" alt=""></p>
-                                                </span>
-                                            </a>
-                                            <div class="menu-con ck ck-content">
-                                                <p>
-                                                    고3 모집시기와 동일하게 운영되나 썸머스쿨 기간은 수능이 더 가까운 N수, 고3, 고2 순으로 우선 모집되며, 잔여석에 한하여 문의를 통해 입학이 가능합니다. 썸머스쿨 기간 입학 희망 시 학원으로 별도 문의 바랍니다.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li class="menu">
-                                            <a href="" class="slide" id="55">
-                                                <span class="ask">
-                                                    <span class="label">
-                                                        <span class="tag">모집</span>
-                                                    </span>
-                                                    <span class="tit">
-                                                        <span class="icon">
-                                                            <p><img src="./img/q.png" alt="q"></p>
-                                                        </span>
-                                                        <span class="tit-inner">[급식] 급식 신청은 어떻게 하나요?</span>
-                                                    </span>
-                                                </span>
-                                                <span class="arrow">
-                                                    <p><img src="./img/arrow.png" alt=""></p>
-                                                </span>
-                                            </a>
-                                            <div class="menu-con ck ck-content">
-                                                <p>
-                                                    고3 모집시기와 동일하게 운영되나 썸머스쿨 기간은 수능이 더 가까운 N수, 고3, 고2 순으로 우선 모집되며, 잔여석에 한하여 문의를 통해 입학이 가능합니다. 썸머스쿨 기간 입학 희망 시 학원으로 별도 문의 바랍니다.
-                                                </p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="paging-wrap">
-                                    <div class="paging">
-                                        <a href="" class="pag-prev">
-                                            <span class="ir i-pag-prev"></span>
-                                        </a>
-                                        <span class="num">
-                                            <a href="" class="active">1</a>
-                                            <a href="" class="bg_none">2</a>
-                                            <a href="" class="bg_none">3</a>
-                                            <a href="" class="bg_none">4</a>
-                                            <a href="" class="bg_none">5</a>
-                                            <a href="" class="bg_none">6</a>
-                                            <a href="" class="bg_none">7</a>
-                                            <a href="" class="bg_none">8</a>
-                                        </span>
-                                        <a href="" class="pag-next">
-                                            <span class="ir i-pag-next"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="faq-content" data-tab="입학">
-                            <div class="acdn-wrap">
-                                <div id="FaqList">
-                                    <ul id="ac">
-                                        <li class="menu">
-                                            <a href="" class="slide" id="55">
-                                                <span class="ask">
-                                                    <span class="label">
-                                                        <span class="tag">입학</span>
-                                                    </span>
-                                                    <span class="tit">
-                                                        <span class="icon">
-                                                            <p><img src="./img/q.png" alt="q"></p>
-                                                        </span>
-                                                        <span class="tit-inner">[급식] 급식 신청은 어떻게 하나요?</span>
-                                                    </span>
-                                                </span>
-                                                <span class="arrow">
-                                                    <p><img src="./img/arrow.png" alt=""></p>
-                                                </span>
-                                            </a>
-                                            <div class="menu-con ck ck-content">
-                                                <p>
-                                                    고3 모집시기와 동일하게 운영되나 썸머스쿨 기간은 수능이 더 가까운 N수, 고3, 고2 순으로 우선 모집되며, 잔여석에 한하여 문의를 통해 입학이 가능합니다. 썸머스쿨 기간 입학 희망 시 학원으로 별도 문의 바랍니다.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li class="menu">
-                                            <a href="" class="slide" id="55">
-                                                <span class="ask">
-                                                    <span class="label">
-                                                        <span class="tag">입학</span>
-                                                    </span>
-                                                    <span class="tit">
-                                                        <span class="icon">
-                                                            <p><img src="./img/q.png" alt="q"></p>
-                                                        </span>
-                                                        <span class="tit-inner">[급식] 급식 신청은 어떻게 하나요?</span>
-                                                    </span>
-                                                </span>
-                                                <span class="arrow">
-                                                    <p><img src="./img/arrow.png" alt=""></p>
-                                                </span>
-                                            </a>
-                                            <div class="menu-con ck ck-content">
-                                                <p>
-                                                    고3 모집시기와 동일하게 운영되나 썸머스쿨 기간은 수능이 더 가까운 N수, 고3, 고2 순으로 우선 모집되며, 잔여석에 한하여 문의를 통해 입학이 가능합니다. 썸머스쿨 기간 입학 희망 시 학원으로 별도 문의 바랍니다.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li class="menu">
-                                            <a href="" class="slide" id="55">
-                                                <span class="ask">
-                                                    <span class="label">
-                                                        <span class="tag">입학</span>
-                                                    </span>
-                                                    <span class="tit">
-                                                        <span class="icon">
-                                                            <p><img src="./img/q.png" alt="q"></p>
-                                                        </span>
-                                                        <span class="tit-inner">[급식] 급식 신청은 어떻게 하나요?</span>
-                                                    </span>
-                                                </span>
-                                                <span class="arrow">
-                                                    <p><img src="./img/arrow.png" alt=""></p>
-                                                </span>
-                                            </a>
-                                            <div class="menu-con ck ck-content">
-                                                <p>
-                                                    고3 모집시기와 동일하게 운영되나 썸머스쿨 기간은 수능이 더 가까운 N수, 고3, 고2 순으로 우선 모집되며, 잔여석에 한하여 문의를 통해 입학이 가능합니다. 썸머스쿨 기간 입학 희망 시 학원으로 별도 문의 바랍니다.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li class="menu">
-                                            <a href="" class="slide" id="55">
-                                                <span class="ask">
-                                                    <span class="label">
-                                                        <span class="tag">입학</span>
-                                                    </span>
-                                                    <span class="tit">
-                                                        <span class="icon">
-                                                            <p><img src="./img/q.png" alt="q"></p>
-                                                        </span>
-                                                        <span class="tit-inner">[급식] 급식 신청은 어떻게 하나요?</span>
-                                                    </span>
-                                                </span>
-                                                <span class="arrow">
-                                                    <p><img src="./img/arrow.png" alt=""></p>
-                                                </span>
-                                            </a>
-                                            <div class="menu-con ck ck-content">
-                                                <p>
-                                                    고3 모집시기와 동일하게 운영되나 썸머스쿨 기간은 수능이 더 가까운 N수, 고3, 고2 순으로 우선 모집되며, 잔여석에 한하여 문의를 통해 입학이 가능합니다. 썸머스쿨 기간 입학 희망 시 학원으로 별도 문의 바랍니다.
-                                                </p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="paging-wrap">
-                                    <div class="paging">
-                                        <a href="" class="pag-prev">
-                                            <span class="ir i-pag-prev"></span>
-                                        </a>
-                                        <span class="num">
-                                            <a href="" class="active">1</a>
-                                            <a href="" class="bg_none">2</a>
-                                            <a href="" class="bg_none">3</a>
-                                            <a href="" class="bg_none">4</a>
-                                            <a href="" class="bg_none">5</a>
-                                            <a href="" class="bg_none">6</a>
-                                            <a href="" class="bg_none">7</a>
-                                            <a href="" class="bg_none">8</a>
-                                        </span>
-                                        <a href="" class="pag-next">
-                                            <span class="ir i-pag-next"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="faq-content" data-tab="바른공부 자습전용관">
-                            <div class="acdn-wrap">
-                                <div id="FaqList">
-                                    <ul id="ac">
-                                        <li class="menu">
-                                            <a href="" class="slide" id="55">
-                                                <span class="ask">
-                                                    <span class="label">
-                                                        <span class="tag">바른공부 자습전용관</span>
-                                                    </span>
-                                                    <span class="tit">
-                                                        <span class="icon">
-                                                            <p><img src="./img/q.png" alt="q"></p>
-                                                        </span>
-                                                        <span class="tit-inner">[급식] 급식 신청은 어떻게 하나요?</span>
-                                                    </span>
-                                                </span>
-                                                <span class="arrow">
-                                                    <p><img src="./img/arrow.png" alt=""></p>
-                                                </span>
-                                            </a>
-                                            <div class="menu-con ck ck-content">
-                                                <p>
-                                                    고3 모집시기와 동일하게 운영되나 썸머스쿨 기간은 수능이 더 가까운 N수, 고3, 고2 순으로 우선 모집되며, 잔여석에 한하여 문의를 통해 입학이 가능합니다. 썸머스쿨 기간 입학 희망 시 학원으로 별도 문의 바랍니다.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li class="menu">
-                                            <a href="" class="slide" id="55">
-                                                <span class="ask">
-                                                    <span class="label">
-                                                        <span class="tag">바른공부 자습전용관</span>
-                                                    </span>
-                                                    <span class="tit">
-                                                        <span class="icon">
-                                                            <p><img src="./img/q.png" alt="q"></p>
-                                                        </span>
-                                                        <span class="tit-inner">[급식] 급식 신청은 어떻게 하나요?</span>
-                                                    </span>
-                                                </span>
-                                                <span class="arrow">
-                                                    <p><img src="./img/arrow.png" alt=""></p>
-                                                </span>
-                                            </a>
-                                            <div class="menu-con ck ck-content">
-                                                <p>
-                                                    고3 모집시기와 동일하게 운영되나 썸머스쿨 기간은 수능이 더 가까운 N수, 고3, 고2 순으로 우선 모집되며, 잔여석에 한하여 문의를 통해 입학이 가능합니다. 썸머스쿨 기간 입학 희망 시 학원으로 별도 문의 바랍니다.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li class="menu">
-                                            <a href="" class="slide" id="55">
-                                                <span class="ask">
-                                                    <span class="label">
-                                                        <span class="tag">바른공부 자습전용관</span>
-                                                    </span>
-                                                    <span class="tit">
-                                                        <span class="icon">
-                                                            <p><img src="./img/q.png" alt="q"></p>
-                                                        </span>
-                                                        <span class="tit-inner">[급식] 급식 신청은 어떻게 하나요?</span>
-                                                    </span>
-                                                </span>
-                                                <span class="arrow">
-                                                    <p><img src="./img/arrow.png" alt=""></p>
-                                                </span>
-                                            </a>
-                                            <div class="menu-con ck ck-content">
-                                                <p>
-                                                    고3 모집시기와 동일하게 운영되나 썸머스쿨 기간은 수능이 더 가까운 N수, 고3, 고2 순으로 우선 모집되며, 잔여석에 한하여 문의를 통해 입학이 가능합니다. 썸머스쿨 기간 입학 희망 시 학원으로 별도 문의 바랍니다.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li class="menu">
-                                            <a href="" class="slide" id="55">
-                                                <span class="ask">
-                                                    <span class="label">
-                                                        <span class="tag">바른공부 자습전용관</span>
-                                                    </span>
-                                                    <span class="tit">
-                                                        <span class="icon">
-                                                            <p><img src="./img/q.png" alt="q"></p>
-                                                        </span>
-                                                        <span class="tit-inner">[급식] 급식 신청은 어떻게 하나요?</span>
-                                                    </span>
-                                                </span>
-                                                <span class="arrow">
-                                                    <p><img src="./img/arrow.png" alt=""></p>
-                                                </span>
-                                            </a>
-                                            <div class="menu-con ck ck-content">
-                                                <p>
-                                                    고3 모집시기와 동일하게 운영되나 썸머스쿨 기간은 수능이 더 가까운 N수, 고3, 고2 순으로 우선 모집되며, 잔여석에 한하여 문의를 통해 입학이 가능합니다. 썸머스쿨 기간 입학 희망 시 학원으로 별도 문의 바랍니다.
-                                                </p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="paging-wrap">
-                                    <div class="paging">
-                                        <a href="" class="pag-prev">
-                                            <span class="ir i-pag-prev"></span>
-                                        </a>
-                                        <span class="num">
-                                            <a href="" class="active">1</a>
-                                            <a href="" class="bg_none">2</a>
-                                            <a href="" class="bg_none">3</a>
-                                            <a href="" class="bg_none">4</a>
-                                            <a href="" class="bg_none">5</a>
-                                            <a href="" class="bg_none">6</a>
-                                            <a href="" class="bg_none">7</a>
-                                            <a href="" class="bg_none">8</a>
-                                        </span>
-                                        <a href="" class="pag-next">
-                                            <span class="ir i-pag-next"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="ctr-menu">
+                      <ul>
+                        <li>
+                          <div class="outline first">
+                            <ul class="main m1">
+                              <li><a href="bestNew.html">베스트&신제품</a></li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="outline first">
+                            <ul class="main">
+                              <li><a href="#">스킨케어</a></li>
+                              <li><img src="img/header/pmIcon_plus.png" alt="pmIcon"></li>
+                            </ul>
+                            <ul class="sub first">
+                              <div class="outline second">
+                                <ul class="types conduct">
+                                  <li><a href="#">제품유형별</a></li>
+                                  <li><img src="img/header/pmIcon_plus.png" alt="pmIcon"></li>
+                                </ul>
+                                <ul class="sub second">
+                                  <li><a href="conductSkinCare.html">스킨/로션</a></li>
+                                  <li><a href="conductSkinCare.html">크림</a></li>
+                                  <li><a href="conductSkinCare.html">마스크</a></li>
+                                  <li><a href="conductSkinCare.html">선케어</a></li>
+                                  <li><a href="conductSkinCare.html">에센스/앰플/세럼</a></li>
+                                  <li><a href="conductSkinCare.html">아이크림</a></li>
+                                  <li><a href="conductSkinCare.html">바디</a></li>
+                                  <li><a href="conductSkinCare.html">클렌징</a></li>
+                                </ul>
+                              </div>
+                              <div class="outline second">
+                                <ul class="types conduct">
+                                  <li><a href="#">피부고민별</a></li>
+                                  <li><img src="img/header/pmIcon_plus.png" alt="pmIcon"></li>
+                                </ul>
+                                <ul class="sub second">
+                                  <li><a href="conductSkinCare.html">수분/보습</a></li>
+                                  <li><a href="conductSkinCare.html">트러블</a></li>
+                                  <li><a href="conductSkinCare.html">모공</a></li>
+                                  <li><a href="conductSkinCare.html">각질</a></li>
+                                  <li><a href="conductSkinCare.html">안티에이징</a></li>
+                                  <li><a href="conductSkinCare.html">미백</a></li>
+                                  <li><a href="conductSkinCare.html">민감</a></li>
+                                </ul>
+                              </div>
+                            </ul>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="outline first">
+                            <ul class="main m1">
+                              <li><a href="conductMakeUp.html">메이크업</a></li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="outline first">
+                            <ul class="main m1">
+                              <li><a href="conductMens.html">맨즈</a></li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="outline first">
+                            <ul class="main">
+                              <li><a href="#">브랜드</a></li>
+                              <li><img src="img/header/pmIcon_plus.png" alt="pmIcon"></li>
+                            </ul>
+                            <ul class="sub first">
+                              <div class="outline second">
+                                <ul class="types brand">
+                                  <li><a href="brandStory.html">브랜드 스토리</a></li>
+                                </ul>
+                              </div>
+                              <div class="outline second">
+                                <ul class="types brand">
+                                  <li><a href="loundge.html">라운지</a></li>
+                                </ul>
+                              </div>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
                     </div>
+                  </div>
+                  <div class="btm-menu">
+                    <div class="login-tab"><a href="login.html">로그인</a></div>
+                    <div class="language-tab">
+                      <form action="languageOk.do" method="post" id="MobileLanguageForm">
+                        <select name="MobileLanguage" id="MobileLanguage">
+                          <option value="LANGUAGE|한국어">한국 | 한국어</option>
+                          <option value="LANGUAGE|English">International | English</option>
+                          <option value="LANGUAGE|中文">中国大陆 | 中文</option>
+                        </select>
+                      </form>
+                    </div>
+                  </div>
                 </div>
+              </span>
+              <div class="gnb">
+                <ul>
+                  <li><a href="bestNew.html">베스트&신제품</a></li>
+                  <li><a href="conductSkinCare.html">스킨케어</a>
+                    <div class="sub-outline">
+                      <div class="sub skinCare">
+                        <div class="text-sub">
+                          <div class="title">
+                            <div class="title-left">
+                              <div class="left"><a href="conductSkinCare.html">제품 유형별</a></div>
+                            </div>
+                            <div class="title-right">
+                              <div class="right"><a href="conductSkinCare.html">피부 고민별</a></div>
+                            </div>
+                          </div>
+                          <div class="contents">
+                            <div class="left-contents">
+                              <ul>
+                                <li><a href="#">스킨/로션</a></li>
+                                <li><a href="#">크림</a></li>
+                                <li><a href="#">마스크</a></li>
+                                <li><a href="#">선케어</a></li>
+                                <li><a href="#">에센스/앰플/세럼</a></li>
+                                <li><a href="#">아이크림</a></li>
+                                <li><a href="#">바디</a></li>
+                                <li><a href="#">클렌징</a></li>
+                              </ul>
+                            </div>
+                            <div class="right-contents">
+                              <ul>
+                                <li><a href="#">수분/보습</a></li>
+                                <li><a href="#">트러블</a></li>
+                                <li><a href="#">모공</a></li>
+                                <li><a href="#">각질</a></li>
+                                <li><a href="#">안티에이징</a></li>
+                                <li><a href="#">미백</a></li>
+                                <li><a href="#">민감</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="img-sub">
+                          <a href="conductSkinCare.html">
+                            <div class="imgBox">
+                              <img src="img/header/header_subImg_0.jpg" alt="title-img">
+                            </div>
+                            <div class="imgName">바쿠치올 레티놀 크림</div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li><a href="conductMakeUp.html">메이크업</a>
+                    <div class="sub-outline">
+                      <div class="sub makeUp">
+                        <div class="text-sub">
+                          <div class="title">
+                            <div class="title-left">
+                              <div class="left"><a href="conductMakeUp.html">제품 유형별</a></div>
+                            </div>
+                          </div>
+                          <div class="contents">
+                            <div class="left-contents">
+                              <ul>
+                                <li><a href="#">베이스</a></li>
+                                <li><a href="#">립</a></li>
+                                <li><a href="#">아이</a></li>
+                                <li><a href="#">치크/하이라이터</a></li>
+                                <li><a href="#">쉐딩</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="img-sub">
+                          <a href="conductMakeUp.html">
+                            <div class="imgBox">
+                              <img src="img/header/header_subImg_1.jpg" alt="title-img">
+                            </div>
+                            <div class="imgName">크리미 틴트 컬러밤 쉬폰</div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li><a href="conductMens.html">맨즈</a>
+                    <div class="sub-outline">
+                      <div class="sub mans">
+                        <div class="text-sub">
+                          <div class="title">
+                            <div class="title-left">
+                              <div class="left"><a href="conductMens.html">제품 유형별</a></div>
+                            </div>
+                          </div>
+                          <div class="contents">
+                            <div class="left-contents">
+                              <ul>
+                                <li><a href="#">토너</a></li>
+                                <li><a href="#">로션</a></li>
+                                <li><a href="#">올인원</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="img-sub">
+                          <a href="conductMens.html">
+                            <div class="imgBox">
+                              <img src="img/header/header_subImg_2.jpg" alt="title-img">
+                            </div>
+                            <div class="imgName">맨 리차징 올인원 플루이드</div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li><a href="brandStory.html">브랜드</a>
+                    <div class="sub-outline">
+                      <div class="sub brand">
+                        <div class="text-sub">
+                          <div class="title">
+                            <div class="title-left pick">
+                              <div class="left"><a href="#">Mamonde</a></div>
+                            </div>
+                          </div>
+                          <div class="contents">
+                            <div class="left-contents">
+                              <ul>
+                                <li><a href="brandStory.html">브랜드 스토리</a></li>
+                                <li><a href="loundge.html">라운지</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="img-sub">
+                          <a href="brandStory.html">
+                            <div class="imgBox">
+                              <img src="img/header/header_subImg_3.jpg" alt="title-img">
+                            </div>
+                            <div class="imgName">간결하게 확실하게, 가장 나다운 아름다움</div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
+            <div class="right-menu">
+              <ul>
+                <li><a href="login.html"><img src="img/header/right_menu_login_0.png" alt="Login"></a></li>
+                <li><a href="#"><img src="img/header/right_menu_findastore_0.png" alt="Find a store"></a></li>
+                <li class="search"><a href="#"><img src="img/header/right_menu_search_0.png" alt="Search"></a>
+                  <div class="sub-outline">
+                    <div class="search-con">
+                      <div class="search-top">
+                        <div class="global-search">
+                          <form action="searchOk.do" method="post" id="searchForm">
+                            <input type="text" name="userSearch" id="userSearch" placeholder="검색어를 입력해 주세요">
+                            <input type="button" value="검색" id="searchBtn">
+                          </form>
+                        </div>
+                        <div class="search-outline">
+                          <div class="search-keyword">추천 검색어</div>
+                          <ul>
+                            <li><a href="#">#데일리 페어</a></li>
+                            <li><a href="#">#촉촉 브라이트닝</a></li>
+                            <li><a href="#">#안티에이징</a></li>
+                            <li><a href="#">#저자극 레티놀</a></li>
+                            <li><a href="#">#세라 마이드 크림</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="search-btm">
+                        <button class="close">닫기</button>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-
-        <div class="btm-cont">
-            <a href="#">찾으시는 답변이 없으신가요? <span>1:1문의(온라인 상담)</span>를 이용해주세요.</a>
-        </div>
+      </div>
     </div>
-
-    <!-- Scroll Buttons -->
-    <div class="scroll-btn-wrap">
-        <div class="scroll-btn-top">
-            <img src="./img/btn_scroll_top.png" alt="Top">
+    <div class="container">
+      <div class="inner-container">
+        <div class="index">
+          <div class="sections">
+            <div class="section sec1">
+              <div class="sec-con">
+                <div class="gallery">
+                  <ul>
+                    <li>
+                      <div class="main-title">
+                        <ul class="title">
+                          <li>
+                            <div class="title-box">
+                              <a href="#">
+                                <strong class="title">NEW 로즈워터 토너</strong>
+                                <span class="text">더 클린하고 촉촉해진 90.97% 장미수 진정 보습 토너</span>
+                              </a>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="title-box">
+                              <a href="#">
+                                <strong class="title">NEW 바쿠치올 레티놀 크림</strong>
+                                <span class="text">저자극 레티놀로 노필터 탄력 보정</span>
+                              </a>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="title-box">
+                              <a href="#">
+                                <strong class="title">프로바이오틱스 세라마이드 크림</strong>
+                                <span class="text">1시간만에 손상장벽 개선효과</span>
+                              </a>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="title-box">
+                              <a href="#">
+                                <strong class="title">블루 캐모마일 크림</strong>
+                                <span class="text">시카보다 강력한 진정 필수템</span>
+                              </a>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="title-box">
+                              <a href="#">
+                                <strong class="title">NEW 로즈워터 토너</strong>
+                                <span class="text">더 클린하고 촉촉해진 90.97% 장미수 진정 보습 토너</span>
+                              </a>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="title-box">
+                              <a href="#">
+                                <strong class="title">NEW 바쿠치올 레티놀 크림</strong>
+                                <span class="text">저자극 레티놀로 노필터 탄력 보정</span>
+                              </a>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="center-btn">
+                  <span class="arrow arrowLeft"><img src="img/index/section1/main_arrowLeft.png" alt="arrowLeft"></span>
+                  <span class="arrow arrowRight"><img src="img/index/section1/main_arrowRight.png"
+                      alt="arrowRight"></span>
+                </div>
+                <div class="bottom-con">
+                  <div class="items">
+                    <div class="items-inner">
+                      <ul>
+                        <li class="on"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section sec2">
+              <div class="sec-con">
+                <div class="con-top">
+                  <div class="con-top-inner">
+                    <div class="sec-title">Best Sellers</div>
+                    <div class="sec-txt">가장 나다운 아름다움을 위한 확실한 솔루션</div>
+                  </div>
+                </div>
+                <div class="con-bottom">
+                  <div class="con-left">
+                    <div class="con-left-top">
+                      <ul>
+                        <li>
+                          <p>#크림</p>
+                        </li>
+                        <li>
+                          <p>#스킨/로션</p>
+                        </li>
+                        <li>
+                          <p>#에센스/앰플/세럼</p>
+                        </li>
+                        <li>
+                          <p>#마스크/클렌징</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="con-left-btm">
+                      <div class="review-top">
+                        <div class="review-con">벌써 3통째예요! 기미가 고민인 요즘 <br> 사용하면 피부가 밝아지고 확실히 잡티가 옅어지네요~</div>
+                        <div class="review-id">@ss00****</div>
+                      </div>
+                      <div class="review-btm">
+                        <div class="review-con">얼굴도 속당김 없이 여전히 촉촉하구요 <br> 재구매의사 완전 100%입니다! <br> 다들 정말 추천 드려요</div>
+                        <div class="review-id">@jani******</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="con-right">
+                    <div class="con-right-inner">
+                      <div class="right-gallery">
+                        <ul>
+                          <li>
+                            <a href="#"><img src="img/index/section2/cream/sec2_cream_0.jpg" alt="bestSeller_0"></a>
+                            <p class="bs-tit">바쿠치올 레티놀 크림</p>
+                            <p class="bs-desc">바쿠치올과 순수 레티놀의 황금비율 <br> 저자극 수분 탄력 크림</p>
+                          </li>
+                          <li>
+                            <a href="#"><img src="img/index/section2/cream/sec2_cream_1.jpg" alt="bestSeller_1"></a>
+                            <p class="bs-tit">프로바이오틱스 세라마이드 크림</p>
+                            <p class="bs-desc">기본부터 탄탄한 건강 장벽을 세워주는 <br> 산뜻한 저자극 보습장벽 크림</p>
+                          </li>
+                          <li>
+                            <a href="#"><img src="img/index/section2/cream/sec2_cream_2.jpg" alt="bestSeller_2"></a>
+                            <p class="bs-tit">블루 캐모마일 크림</p>
+                            <p class="bs-desc">블루 캐모마일 추출물과 히아루론산의 <br> 저자극 수분 진정 크림</p>
+                          </li>
+                          <li>
+                            <a href="#"><img src="img/index/section2/cream/sec2_cream_3.jpg" alt="bestSeller_3"></a>
+                            <p class="bs-tit">비타민 판테놀 10 크림</p>
+                            <p class="bs-desc">피부를 빠르게 진정시키고 피부장벽을 <br> 개선해주는 건강 보습 크림</p>
+                          </li>
+                          <li>
+                            <a href="#"><img src="img/index/section2/cream/sec2_cream_4.jpg" alt="bestSeller_4"></a>
+                            <p class="bs-tit">로즈워터 수딩젤</p>
+                            <p class="bs-desc">장미수 90.81%를 듬뿍 담아 촉촉하고 <br> 흡수가 빠른 멀티 사용 수딩젤</p>
+                          </li>
+                          <li>
+                            <a href="#"><img src="img/index/section2/cream/sec2_cream_5.jpg" alt="bestSeller_5"></a>
+                            <p class="bs-tit">에이지 컨트롤 파워리프트 크림</p>
+                            <p class="bs-desc">탄력과 건강한 윤기를 부여 해주는 <br> 안티에이징 탄력 크림</p>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="center-btn">
+                        <span class="arrow arrowLeft"><img src="img/index/section2/arrow_left_black.png"
+                            alt="arrowLeft"></span>
+                        <span class="arrow arrowRight"><img src="img/index/section2/arrow_right_black.png"
+                            alt="arrowRight"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section sec3">
+              <div class="sec-con">
+                <div class="con-top">
+                  <div class="con-top-inner">
+                    <div class="sec-title">Mamonde Exclusive</div>
+                    <div class="sec-txt">그냥 지나칠 수 없는 마몽드 탐구 영역</div>
+                  </div>
+                </div>
+                <div class="con-ctr">
+                  <div class="ctr-gallery">
+                    <ul>
+                      <li class="i3">
+                        <div class="li-inner">
+                          <a href="#"><img src="img/index/section3/sec3_0.jpg" alt="sec3_con_0"></a>
+                          <p class="bs-tit">마몽드X바이탈뷰티</p>
+                          <p class="bs-desc">프로바이오틱스에 진심이니까 <br> VB 녹차유산균 + 크림본품용량 증정</p>
+                        </div>
+                      </li>
+                      <li class="i2">
+                        <div class="li-inner">
+                          <a href="#"><img src="img/index/section3/sec3_1.jpg" alt="sec3_con_1"></a>
+                          <p class="bs-tit">뷰튜버 재유 최애템!</p>
+                          <p class="bs-desc">#시카변절템 #마스크 예민보스템 <br> #유수분 밑간템</p>
+                        </div>
+                      </li>
+                      <li class="i1">
+                        <div class="li-inner">
+                          <a href="#"><img src="img/index/section3/sec3_2.jpg" alt="sec3_con_2"></a>
+                          <p class="bs-tit">마몽드X네이버</p>
+                          <p class="bs-desc">#레티놀 탄력듀오 <br> 단독 추가 사은품 증정</p>
+                        </div>
+                      </li>
+                      <li class="i2">
+                        <div class="li-inner">
+                          <a href="#"><img src="img/index/section3/sec3_3.jpg" alt="sec3_con_3"></a>
+                          <p class="bs-tit">마몽드 플래그십 스토어&스파</p>
+                          <p class="bs-desc">전통과 현대를 넘나들며 <br> 피부에 스며드는 가치 있는 시간</p>
+                        </div>
+                      </li>
+                      <li class="i3">
+                        <div class="li-inner">
+                          <a href="#"><img src="img/index/section3/sec3_4.jpg" alt="sec3_con_4"></a>
+                          <p class="bs-tit">마이 마몽드 포장서비스</p>
+                          <p class="bs-desc">특별한 날을 더욱 의미있게 <br> 만들 수 있는 마몽드 커스텀 포장 서비스</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="con-linear-left"></div>
+                  <div class="con-linear-right"></div>
+                  <div class="center-btn">
+                    <span class="arrow arrowLeft"><img src="img/index/section3/arrow_left_black.png"
+                        alt="arrowLeft"></span>
+                    <span class="arrow arrowRight"><img src="img/index/section3/arrow_right_black.png"
+                        alt="arrowRight"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section sec4">
+              <div class="sec-con">
+                <div class="con-top">
+                  <div class="con-top-inner">
+                    <div class="sec-title">With #Mamonde</div>
+                    <div class="sec-txt">마몽드와 함께하는 순간</div>
+                  </div>
+                </div>
+                <div class="con-btm">
+                  <div class="con-btm-inner">
+                    <div class="view-all"><a href="loundge.html">
+                        <div class="view-all-con">View-All</div>
+                        <img src="img/index/section4/arrow.jpg" alt="arrow">
+                      </a>
+                    </div>
+                    <div class="view-review">
+                      <ul>
+                        <li class="m1">
+                          <img src="img/index/section4/img_0.jpg" alt="sec4_con_0">
+                          <div class="market"><img src="img/index/section4/basket.png" alt="market_0"></div>
+                          <div class="desc">
+                            <p>#협찬 x @mamondekorea 아웃도어 활동에서도 일상에서도 계속 바르다보니 찐템이 된 마몽드의 신제품 비타선크림🌞 매일 쓰는 선크림은 햇빛알러지를 가진
+                              저에게는 더욱 더 신경쓰는 화장품이라 성분 자체의 자극도 걱정인데요. 마몽드 비타민선크림은 저자극 테스트도 거친 아이라 민감한 피부도 쓸 수 있어 믿고 쓸 수
+                              있겠더라구요💗 무엇보다 촉촉한 사용감으로 메이크업 전후에도 밀림 현상 없는 마무리 감이 너무 좋았어요🙋🏻‍♀️ 👉🏻저자극으로 자극 걱정 no, 매일매일
+                              편하게 사용하세요. </p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/index/section4/img_1.jpg" alt="sec4_con_1">
+                          <div class="market"><img src="img/index/section4/basket.png" alt="market_0"></div>
+                          <div class="desc">
+                            <p>- 하이포 알러지 테스트 - 8free, 안자극 대체 테스트 - 피부과 테스트 완료(자극 반응도 0.00) 👉🏻비타민 콤플렉스 - 자외선 차단 & 미백 2중
+                              기능성 화장품 - 저자극 선크림에 비타민을 더해 건강한 피부 근본케어 👉🏻백탁 없이 촉촉하게 발리는 혼합 자차 선크림 #저자극선크림 #저자극자차 #민감피부자차
+                              #비타선크림 #비타민선크림 #저자극선크림 #클린선크림 #저자극선크림추천 #민감피부추천선크림 #백탁없는선크림 #촉촉선크림</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/index/section4/img_2.jpg" alt="sec4_con_2">
+                          <div class="market"><img src="img/index/section4/basket.png" alt="market_0"></div>
+                          <div class="desc">
+                            <p>유튜버 아랑님 덕분에 내 피부가 푹 빠져있는 마몽드 바쿠치올💜 #마몽드 #바쿠치올레티놀크림 #레티놀크림 #크림추천 #화장품 #뷰티스타그램</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/index/section4/img_3.jpg" alt="sec4_con_3">
+                          <div class="market"><img src="img/index/section4/basket.png" alt="market_0"></div>
+                          <div class="desc">
+                            <p>#제품무료제공 발라도 발라도 당기고 건조한 요즘 피부~! 10% 판테놀과 멀티 비타민 콤플렉스가 예민한 피부를 빠르게 진정시키고, 손상된 피부 장벽을 개선해
+                              준다는 #마몽드 #비타민판테놀10크림 빠른 흡수력과 부드러운 발림성은 물론 보습도 빠르게 채워지는 느낌이고, 덧발라도 밀림이 없고 메이크업도 잘먹어 좋더라구요.
+                              튜브형이라 사용하기도 휴대하기도 좋아 요즘 외출 전에 꼭 챙기고 있어요</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/index/section4/img_4.jpg" alt="sec4_con_4">
+                          <div class="market"><img src="img/index/section4/basket.png" alt="market_0"></div>
+                          <div class="desc">
+                            <p>✔️예민하고 민감해진 피부 ✔️유수분 밸런스가 깨져 피부 속 보습이 필요할 때 ✔️피부가 갑자기 거칠어지고 뒤집어질 때 ✔️웬만한 보습크림으로는 만족이 안되는
+                              만성 건조 이런 분들께 🧡마몽드 비타민판테놀 10크림 60mll🧡 진짜 강추합니다! #비타민판테놀크림 #마몽드 #고함량판테놀 #속건조 #100시간보습
+                              #외부자극진정 #건강장벽 #판테놀크림 #구름젤텍스쳐 #겉보속촉 #뷰티 #팔로우 #좋튀 #좋반 #좋아요</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="pop-up">
+                  <div class="pop-con">
+                    <div class="left-con">
+                      <img src="#" alt="#">
+                    </div>
+                    <div class="right-con">
+                      <div class="top-con">
+                        <div class="brandName">
+                          <img src="img/loundge/popUp/mamonde_logo.jpg" alt="logo">
+                          <a href="https://www.instagram.com/p/CbWusHDBF2p/">@mamondekorea</a>
+                        </div>
+                        <div class="sns-con">
+                          <ul>
+                            <li><a
+                                href="https://www.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fphotos.pixlee.co%252Fsocial%252Fopen_graph%253Fdescr%253D%252525E2%252525A0%25252580%2525250AProbiotics%25252520Ceramide%25252520Cream%2525250A%252525E2%252525A0%25252580%2525250A%252525EC%2525259A%252525B0%252525EB%252525A6%252525AC%25252520%252525ED%25252594%252525BC%252525EB%252525B6%25252580%252525EC%2525259D%25252598%2525252050%25252525%252525EB%252525A5%252525BC%25252520%252525EC%252525B0%252525A8%252525EC%252525A7%25252580%252525ED%25252595%25252598%252525EB%2525258A%25252594%25252520%252525EC%25252584%252525B8%252525EB%2525259D%252525BC%252525EB%252525A7%25252588%252525EC%2525259D%252525B4%252525EB%25252593%2525259C%252521%2525250A%252525EB%2525258C%25252580%252525EC%252525B2%252525B4%25252520%252525EC%25252599%2525259C%25252520%252525EC%252525A4%25252591%252525EC%2525259A%25252594%252525ED%25252595%252525A0%252525EA%252525B9%2525258C%252525EC%2525259A%25252594%2525253F%2525250A%252525E2%252525A0%25252580%2525250A%252525EC%25252584%252525B8%252525EB%2525259D%252525BC%252525EB%252525A7%25252588%252525EC%2525259D%252525B4%252525EB%25252593%2525259C%252525EA%252525B0%25252580%25252520%252525EB%252525B6%25252580%252525EC%252525A1%252525B1%252525ED%25252595%25252598%252525EB%252525A9%252525B4%25252520%252525ED%25252594%252525BC%252525EB%252525B6%25252580%25252520%252525EC%2525259E%252525A5%252525EB%252525B2%252525BD%252525EC%2525259D%252525B4%25252520%252525EB%252525AC%252525B4%252525EB%25252584%25252588%252525EC%252525A7%25252580%252525EA%252525B3%252525A0%2525250A%252525EB%252525AF%252525BC%252525EA%252525B0%25252590%252525ED%25252595%252525B4%252525EC%252525A7%25252580%252525EA%252525B8%252525B0%25252520%252525EB%25252595%2525258C%252525EB%252525AC%252525B8%252525EC%25252597%25252590%25252520%252525EC%2525258B%252525A4%252525EC%252525A0%2525259C%25252520%252525ED%25252594%252525BC%252525EB%252525B6%25252580%25252520%252525EC%25252584%252525B8%252525EB%2525259D%252525BC%252525EB%252525A7%25252588%252525EC%2525259D%252525B4%252525EB%25252593%2525259C%252525EC%25252599%25252580%25252520%252525EB%2525258B%252525AE%252525EC%2525259D%25252580%2525250A%252525EC%252525A0%2525259C%252525ED%25252592%25252588%252525EC%2525259C%252525BC%252525EB%252525A1%2525259C%25252520%252525EA%252525B4%25252580%252525EB%252525A6%252525AC%252525EA%252525B0%25252580%25252520%252525EA%252525BC%252525AD%25252520%252525ED%25252595%25252584%252525EC%2525259A%25252594%252525ED%25252595%25252598%252525EB%2525258B%252525A4%252525EB%2525258A%25252594%25252520%252525EC%25252582%252525AC%252525EC%2525258B%252525A4%252521%2525250A%252525E2%252525A0%25252580%2525250A%252525EC%2525259D%252525B4%252525EB%252525AF%252525B8%252525EC%252525A7%25252580%252525EB%252525A5%252525BC%25252520%252525EC%25252599%252525BC%252525EC%252525AA%252525BD%252525EC%2525259C%252525BC%252525EB%252525A1%2525259C%25252520%252525EC%2525258A%252525AC%252525EB%2525259D%252525BC%252525EC%2525259D%252525B4%252525EB%25252593%2525259C%252525F0%2525259F%2525258C%2525258A%25252520%252525ED%25252595%252525B4%252525EC%25252584%2525259C%2525250A%252525EB%25252582%252525B4%25252520%252525ED%25252594%252525BC%252525EB%252525B6%25252580%252525EC%25252599%25252580%25252520%252525EA%252525BC%252525AD%25252520%252525EB%2525258B%252525AE%252525EC%2525259D%25252580%25252520%252525EC%25252584%252525B8%252525EB%2525259D%252525BC%252525EB%252525A7%25252588%252525EC%2525259D%252525B4%252525EB%25252593%2525259C%252525EB%252525A5%252525BC%25252520%252525EB%252525A7%2525258C%252525EB%25252582%25252598%252525EB%252525B3%252525B4%252525EC%25252584%252525B8%252525EC%2525259A%25252594%252525E2%2525259D%252525A3%252525EF%252525B8%2525258F%2526title%253DMamonde%252BIG%2526img%253Dhttps%25253A%25252F%25252Fstatic.pxlecdn.com%25252Fphotos%25252F477931372%25252Fmedium%25252Ffd3dff57108794bd0fc3.jpg%2526bitly_url%253Dhttps%25253A%25252F%25252Fbit.ly%25252F3EizvyG%2526type%253Dimage&cancel_url=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=popup&locale=ko_KR"><img
+                                  src="img/loundge/popUp/sns_0.jpg" alt="facebook"></a></li>
+                            <li><a
+                                href="https://twitter.com/intent/tweet?url=https://photos.pixlee.co%2Fsocial%2Fopen_graph%3Fdescr%3D%2525E2%2525A0%252580%25250AProbiotics%252520Ceramide%252520Cream%25250A%2525E2%2525A0%252580%25250A%2525EC%25259A%2525B0%2525EB%2525A6%2525AC%252520%2525ED%252594%2525BC%2525EB%2525B6%252580%2525EC%25259D%252598%25252050%252525%2525EB%2525A5%2525BC%252520%2525EC%2525B0%2525A8%2525EC%2525A7%252580%2525ED%252595%252598%2525EB%25258A%252594%252520%2525EC%252584%2525B8%2525EB%25259...%26title%3DMamonde%2BIG%26img%3Dhttps%253A%252F%252Fstatic.pxlecdn.com%252Fphotos%252F477931372%252Fmedium%252Ffd3dff57108794bd0fc3.jpg%26bitly_url%3Dhttps%253A%252F%252Fbit.ly%252F3EizvyG%26type%3Dimage%26author%3Dmamondekorea"><img
+                                  src="img/loundge/popUp/sns_1.jpg" alt="twitter"></a></li>
+                            <li><a
+                                href="https://www.pinterest.co.kr/pin-builder/?url=https%3A%2F%2Fwww.mamonde.com%2Fkr%2Fko%2Fbrand%2Flounge%2Fsns%2Findex.html%3Fpixlee_album_photo_id%3D579400955%26utm_source%3Dpinterest&media=https%3A%2F%2Fstatic.pxlecdn.com%2Fphotos%2F477931372%2Fmedium%2Ffd3dff57108794bd0fc3.jpg&description=%E2%A0%80%0AProbiotics+Ceramide+Cream%0A%E2%A0%80%0A%EC%9A%B0%EB%A6%AC+%ED%94%BC%EB%B6%80%EC%9D%98+50%25%EB%A5%BC+%EC%B0%A8%EC%A7%80%ED%95%98%EB%8A%94+%EC%84%B8%EB%9D%BC%EB%A7%88%EC%9D%B4%EB%93%9C%21%0A%EB%8C%80%EC%B2%B4+%EC%99%9C+%EC%A4%91%EC%9A%94%ED%95%A0%EA%B9%8C%EC%9A%94%3F%0A%E2%A0%80%0A%EC%84%B8%EB%9D%BC%EB%A7%88%EC%9D%B4%EB%93%9C%EA%B0%80+%EB%B6%80%EC%A1%B1%ED%95%98%EB%A9%B4+%ED%94%BC%EB%B6%80+%EC%9E%A5%EB%B2%BD%EC%9D%B4+%EB%AC%B4%EB%84%88%EC%A7%80%EA%B3%A0%0A%EB%AF%BC%EA%B0%90%ED%95%B4%EC%A7%80%EA%B8%B0+%EB%95%8C%EB%AC%B8%EC%97%90+%EC%8B%A4%EC%A0%9C+%ED%94%BC%EB%B6%80+%EC%84%B8%EB%9D%BC%EB%A7%88%EC%9D%B4%EB%93%9C%EC%99%80+%EB%8B%AE%EC%9D%80%0A%EC%A0%9C%ED%92%88%EC%9C%BC%EB%A1%9C+%EA%B4%80%EB%A6%AC%EA%B0%80+%EA%BC%AD+%ED%95%84%EC%9A%94%ED%95%98%EB%8B%A4%EB%8A%94+%EC%82%AC%EC%8B%A4%21%0A%E2%A0%80%0A%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A5%BC+%EC%99%BC%EC%AA%BD%EC%9C%BC%EB%A1%9C+%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C%F0%9F%8C%8A+%ED%95%B4%EC%84%9C%0A%EB%82%B4+%ED%94%BC%EB%B6%80%EC%99%80+%EA%BC%AD+%EB%8B%AE%EC%9D%80+%EC%84%B8%EB%9D%BC%EB%A7%88%EC%9D%B4%EB%93%9C%EB%A5%BC+%EB%A7%8C%EB%82%98%EB%B3%B4%EC%84%B8%EC%9A%94%E2%9D%A3%EF%B8%8F&utm_source=pinterest&method=button"><img
+                                  src="img/loundge/popUp/sns_2.jpg" alt="pinterest"></a></li>
+                          </ul>
+                        </div>
+                        <div class="main-content">
+                          <p></p>
+                          <div class="buy"><a href="#">제품 구매하기</a></div>
+                        </div>
+                      </div>
+                      <div class="bottom-con">
+                        <div class="close-con">
+                          <button><img src="img/index/section4/closed.png" alt="closed"></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="scroll-btn-home">
-            <a href="#"><img src="./img/btn_scroll_home.png" alt="Home"></a>
-        </div>
+      </div>
     </div>
-
-    <script>
-        $(document).ready(function () {
-            // 스크롤 버튼
-            $(window).scroll(function () {
-                var scrollTop = $(window).scrollTop();
-                
-                if (scrollTop > 0) {
-                    $('.scroll-btn-top').addClass('on');
-                } else {
-                    $('.scroll-btn-top').removeClass('on');
-                }
-            });
-
-            $('.scroll-btn-top').on('click', function () {
-                $('html, body').animate({ scrollTop: 0 }, 300);
-            });
-
-            // 아코디언 기능
-            $(document).on('click', '.menu .slide', function (e) {
-                e.preventDefault();
-                var content = $(this).next();
-                
-                if (content.is(':visible')) {
-                    content.slideUp();
-                    $(this).removeClass('active');
-                } else {
-                    $('.menu div:not(.slide)').slideUp();
-                    $('.menu .slide').removeClass('active');
-                    content.slideDown();
-                    $(this).addClass('active');
-                }
-            });
-
-            $(document).on('click', '#ac li.menu > a.slide', function (e) {
-                e.preventDefault();
-    
-                // 1. 모든 li의 이미지 원상복구
-                $('#ac li.menu').each(function () {
-                    $(this).find('.icon img').attr('src', './img/q.png');
-                    $(this).find('.arrow img').attr('src', './img/arrow.png');
-                });
-    
-                // 2. 현재 클릭된 li의 이미지만 _on.png로 변경
-                const $currentLi = $(this).closest('li.menu');
-                $currentLi.find('.icon img').attr('src', './img/q_on.png');
-                $currentLi.find('.arrow img').attr('src', './img/arrow_on.png');
-            });
-
-        });
-
-        // 탭 클릭 기능
-        $('.tab-faq .faq-list').on('click', function (e) {
-        e.preventDefault();
-
-        // 탭 버튼 스타일 변경
-        $('.tab-faq .faq-list').removeClass('on');
-        $(this).addClass('on');
-
-        // 탭 이름 추출
-        const tabName = $(this).text().trim();
-
-        // 모든 faq-content 숨김
-        $('.faq-content').removeClass('on').hide();
-
-        // 선택된 탭만 보이기
-        $('.faq-content[data-tab="' + tabName + '"]').addClass('on').show();
-        });
-
-    </script>
+    <div class="footer">
+      <div class="inner-footer">
+        <div class="fcon">
+          <div class="top-fcon">
+            <div class="sns-con">
+              <div class="sns">
+                <ul>
+                  <li><a href="#"><img src="img/footer/icon-facebook.png" alt="facebook"></a></li>
+                  <li><a href="#"><img src="img/footer/icon-instagram.png" alt="instagram"></a></li>
+                  <li><a href="#"><img src="img/footer/icon-youtube.png" alt="youtube"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="bottom-fcon">
+            <div class="left-btm-fcon">
+              <div class="top-btm-fcon">
+                <ul>
+                  <li><a href="#">회사소개</a></li>
+                  <li><a href="#">서비스이용약관</a></li>
+                  <li><a href="#">UGC 이용약관</a></li>
+                  <li><a href="#">개인정보처리방침</a></li>
+                  <li><a href="#">영상정보처리방침</a></li>
+                  <li><a href="#">뷰티포인트</a></li>
+                </ul>
+              </div>
+              <div class="btm-btm-fcon">
+                <div class="fcon-left-content">
+                  <p class="fcon">고객서비스센터(수신자요금부담) 080-023-5454 (월~금 : AM 09:00 ~ PM 06:00)</p>
+                  <p class="copyright">© AMOREPACIFIC CORPORATION. All rights reserved.</p>
+                  <p class="css">
+                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                        <img style="border:0;width:60px;height:20px"
+                            src="http://jigsaw.w3.org/css-validator/images/vcss"
+                            alt="올바른 CSS입니다!" />
+                    </a>
+                 </p>
+                </div>
+                <div class="fcon-right-content">
+                  <div class="fcon-mark"><img src="img/footer/wa-mark.png" alt="fcon-mark"></div>
+                </div>
+              </div>
+            </div>
+            <div class="right-btm-fcon">
+              <div class="language-box">
+                <form action="languageOk.do" method="post" id="FooterLanguageForm">
+                  <select name="FooterLanguage" id="FooterLanguage">
+                    <option value="LANGUAGE|한국어">한국 | 한국어</option>
+                    <option value="LANGUAGE|English">International | English</option>
+                    <option value="LANGUAGE|中文">中国大陆 | 中文</option>
+                  </select>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>

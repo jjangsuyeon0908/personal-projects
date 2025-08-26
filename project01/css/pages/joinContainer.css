@@ -1,0 +1,611 @@
+/*container 시작*/
+
+.container {
+  width: 100%;
+  height: auto;
+  padding-top: 73px;
+}
+
+.container .inner-container {
+  padding: 50px 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.container .inner-container .join {
+  flex: 0 1 650px;
+  height: auto;
+}
+
+.container .inner-container .join .sec-con {
+  width: 100%;
+  height: auto;
+  padding: 40px 10px;
+  box-sizing: border-box;
+}
+
+.container .inner-container .join .sec-con .join-form {
+  width: 100%;
+  height: auto;
+}
+
+.container .inner-container .join .sec-con .join-form h1.title.signUp {
+  width: 100%;
+  height: auto;
+  color: #31271d;
+  text-align: center;
+  font-family: 'Pretendard-SemiBold';
+  font-size: 24px;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+}
+
+.container .inner-container .join .sec-con .join-form>p {
+  font-family: 'Pretendard-Regular';
+  font-size: 1.4rem;
+  padding: 5px 0;
+  text-align: right;
+}
+
+.container .inner-container .join .sec-con .join-form>p::before {
+  content: '*';
+  color: orangered;
+  display: inline-block;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con {
+  width: 100%;
+  height: auto;
+  color: black;
+  border-top: 3px solid #f3acb3;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top>ul {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top>ul>li {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top>ul>li>label {
+  flex: 0 0 150px;
+  height: 40px;
+  line-height: 40px;
+  font-family: 'Pretendard-Regular';
+  font-size: 1.6rem;
+  display: block;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(1) label::after {
+  content: '*';
+  color: orangered;
+  display: inline-block;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(1) input {
+  flex: 0 1 305px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(1) button {
+  flex: 0 0 120px;
+  height: auto;
+  cursor: pointer;
+  border: 1px solid #f3acb3;
+  background-color: white;
+  border-radius: 2px;
+  font-family: 'Pretendard-Regular';
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(2) label::after {
+  content: '*';
+  color: orangered;
+  display: inline-block;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(2) input {
+  flex: 0 1 305px;
+  height: 40px;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(3) label::after {
+  content: '*';
+  color: orangered;
+  display: inline-block;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(3) input {
+  flex: 0 1 305px;
+  height: 40px;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(5) label::after {
+  content: '*';
+  color: orangered;
+  display: inline-block;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(5) input {
+  flex: 0 1 305px;
+  height: 40px;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(6) label::after {
+  content: '*';
+  color: orangered;
+  display: inline-block;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(6) input {
+  flex: 0 1 305px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(6) button {
+  flex: 0 0 120px;
+  height: auto;
+  cursor: pointer;
+  border: 1px solid #f3acb3;
+  background-color: white;
+  border-radius: 2px;
+  font-family: 'Pretendard-Regular';
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(7) label::after {
+  content: '*';
+  color: orangered;
+  display: inline-block;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(7) input {
+  flex: 0 1 305px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(7) button {
+  flex: 0 0 120px;
+  height: auto;
+  cursor: pointer;
+  border: 1px solid #f3acb3;
+  background-color: white;
+  border-radius: 2px;
+  font-family: 'Pretendard-Regular';
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(8) label::after {
+  content: '*';
+  color: orangered;
+  display: inline-block;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(8) input {
+  flex: 0 1 309px;
+  height: 40px;
+}
+
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li input[type=text] {
+  text-indent: 5px;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li input[type=password] {
+  text-indent: 5px;
+  font-size: 18px;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li input::placeholder {
+  text-indent: 5px;
+  font-size: 14px;
+  font-family: 'Pretendard-Regular';
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li p.pwChecked {
+  width: 100%;
+  font-family: 'Pretendard-Regular';
+  font-size: 14px;
+  margin-left: 150px;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li input[type=button] {
+  border: 1px solid #f3acb3;
+  background-color: white;
+  font-family: 'Pretendard-Regular';
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top>ul>li input[type=email] {
+  text-indent: 5px;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top>ul>li input[type=tel] {
+  text-indent: 5px;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(9) .userBirth {
+  flex: 0 1 309px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(9) .userBirth select {
+  flex: 1;
+  width: 99.5%;
+  height: 40px;
+  text-indent: 5px;
+}
+
+
+/*성별*/
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(10) .userGender {
+  flex: 0 1 309px;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Pretendard-Regular';
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(10) .userGender .inputBox {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  
+}
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(10) .userGender .inputBox>input{
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  margin-top: 11px;
+}
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(10) .userGender .inputBox>label{
+  line-height: 40px;
+  font-family: 'Pretendard-Regular';
+  font-size: 1.4rem;
+}
+
+
+/*추가입력사항*/
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(11) .userEtcInfo {
+  flex: 0 1 309px;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Pretendard-Regular';
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(11) .userEtcInfo .inputBox {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  
+}
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(11) .userEtcInfo .inputBox>input{
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  margin-top: 11px;
+}
+.container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(11) .userEtcInfo .inputBox>label{
+  line-height: 40px;
+  font-family: 'Pretendard-Regular';
+  font-size: 1.4rem;
+}
+
+
+
+
+
+
+
+
+.container .inner-container .join .sec-con .join-form .join-con .join-ctr {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  border-top: 1px solid #f3cfd3;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-ctr>label {
+  flex: 0 1 200px;
+  font-family: 'Pretendard-Regular';
+  font-size: 1.6rem;
+  line-height: 3rem;
+  display: block;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-ctr>label::after {
+  content: '*';
+  color: orangered;
+  display: inline-block;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-ctr .infoShareAgree {
+  width: 100%;
+  height: auto;
+  font-size: 1.4rem;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-ctr .infoShareAgree>ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-ctr .infoShareAgree>ul>li {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-ctr .infoShareAgree>ul>li input {
+  width: 15px;
+  height: 15px;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-ctr .infoShareAgree>ul>li label {
+  width: auto;
+  height: auto;
+  line-height: 18px;
+  margin-left: 5px;
+  font-family: 'Pretendard-Regular';
+  font-size: 1.4rem;
+  display: block;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-ctr .infoShareAgree>ul>li:not(:first-child) {
+  margin-bottom: 20px;
+}
+
+/*전체동의 li*/
+.container .inner-container .join .sec-con .join-form .join-con .join-ctr .infoShareAgree>ul>li:nth-child(2) p {
+  font-family: 'Pretendard-ExtraLight';
+  font-size: 1.2rem;
+  line-height: 2rem;
+  text-indent: 23px;
+}
+
+
+
+
+
+
+/*이용약관동의 li*/
+.container .inner-container .join .sec-con .join-form .join-con .join-ctr .infoShareAgree>ul>li:nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-ctr .infoShareAgree>ul>li:nth-child(3) .inputBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-ctr .infoShareAgree>ul>li:nth-child(3) .inputBox input {
+  width: 15px;
+  height: 15px;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-ctr .infoShareAgree>ul>li:nth-child(3) p {
+  font-family: 'Pretendard-Regular';
+  font-size: 1.4rem;
+  color: #f3acb3;
+  cursor: pointer;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-ctr .infoShareAgree>ul>li:nth-child(3) p::after {
+  content: url(../../img/join/arrow.png);
+  display: inline-block;
+  float: right;
+}
+
+
+/*개인정보수집 및 이용동의*/
+.container .inner-container .join .sec-con .join-form .join-con .join-ctr .infoShareAgree>ul>li:nth-child(4) {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-ctr .infoShareAgree>ul>li:nth-child(4) .inputBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-ctr .infoShareAgree>ul>li:nth-child(4) .inputBox input {
+  width: 15.5px;
+  height: 15.5px;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-ctr .infoShareAgree>ul>li:nth-child(4) p {
+  font-family: 'Pretendard-Regular';
+  font-size: 1.4rem;
+  color: #f3acb3;
+  cursor: pointer;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-ctr .infoShareAgree>ul>li:nth-child(4) p::after {
+  content: url(../../img/join/arrow.png);
+  display: inline-block;
+  float: right;
+}
+
+
+
+/*무료배송 할인쿠폰 수신 동의*/
+.container .inner-container .join .sec-con .join-form .join-con .join-ctr .infoShareAgree>ul>li.li1 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-ctr .infoShareAgree>ul>li:nth-child(6) .inputBox {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px 30px 0 30px;
+  box-sizing: border-box;
+}
+
+
+
+.container .inner-container .join .sec-con .join-form .join-con .join-btm {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #f3cfd367;
+  padding: 30px 0 0 0;
+  box-sizing: border-box;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-btm input {
+  width: 30%;
+  height: auto;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Pretendard-Regular';
+  line-height: 40px;
+  background-color: white;
+  border: 1px solid #ffccd1;
+  transition: all 0.2s ease-in-out;
+}
+
+.container .inner-container .join .sec-con .join-form .join-con .join-btm input:hover {
+  background-color: #ffccd1;
+  color: white;
+}
+
+
+
+
+
+
+
+
+/*태블릿버전*/
+@media only screen and (max-width:1019px) {
+
+
+
+}
+
+/*모바일버전*/
+@media only screen and (max-width:680px) {
+  .container .inner-container .join {
+    flex: 0 1 500px;
+  }
+  .container .inner-container .join .sec-con .join-form .join-con .join-top>ul {
+    padding: 20px 5px 0 5px;
+    box-sizing: border-box;
+  }
+
+  .container .inner-container .join .sec-con .join-form .join-con .join-top>ul>li>label {
+    flex: 0 0 95px;
+    font-size: 1.5rem;
+  }
+
+  .container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(2) input {
+    flex: 0 1 254px;
+  }
+  .container .inner-container .join .sec-con .join-form .join-con .join-top ul>li input[type=password] {
+    font-size: 14px;
+  }
+
+  .container .inner-container .join .sec-con .join-form .join-con .join-top ul>li p.pwChecked {
+    margin-left: 100px;
+  }
+
+  .container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(1) button {
+    flex: 0 0 90px;
+  }
+  
+  .container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(3) input {
+    flex: 0 1 254px;
+  }
+  
+  .container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(5) input {
+    flex: 0 1 254px;
+  }
+  .container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(6) button {
+    flex: 0 0 90px;
+  }
+  .container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(7) button {
+    flex: 0 0 90px;
+  }
+  .container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(8) input {
+    flex: 0 1 257px;
+  }
+  .container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(9) .userBirth{
+    flex: 0 1 257px;
+  }
+  .container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(10) .userGender{
+    flex: 0 1 290px;
+  }
+  .container .inner-container .join .sec-con .join-form .join-con .join-top ul>li:nth-child(11) .userEtcInfo{
+    flex: 0 1 290px;
+  }
+  
+
+  .container .inner-container .join .sec-con .join-form .join-con .join-ctr {
+    padding: 20px 5px;
+    box-sizing: border-box;
+  }
+
+  .container .inner-container .join .sec-con .join-form .join-con .join-ctr>label {
+    flex: 0 1 120px;
+  }
+
+
+  .container .inner-container .join .sec-con .join-form .join-con .join-ctr .infoShareAgree>ul>li:nth-child(2) p {
+    text-indent: 0px;
+    padding: 0 23px;
+    box-sizing: border-box;
+  }
+
+
+
+}

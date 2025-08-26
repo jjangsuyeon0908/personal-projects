@@ -1,0 +1,331 @@
+/*container 시작*/
+
+.container {
+  padding-top: 74px;
+}
+
+.container .inner-container {
+  width: 100%;
+  height: auto;
+  /*padding: 10px 0.5208vw;*/
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.container .inner-container .makeUp {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .inner-container .makeUp .main-background{
+  width: 100%;
+  height: 300px;
+  background: url(../../img/makeUp/mainImg.jpg) no-repeat 50%/cover;
+  margin-bottom: 20px;
+}
+.container .inner-container .makeUp .main-con{
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .inner-container .makeUp .main-con .top-con{
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.449);
+  font-family: 'Pretendard-Regular';
+  font-size: 3rem;
+  padding: 5px 0.5208vw;
+  box-sizing: border-box;
+}
+.container .inner-container .makeUp .main-con .btm-con{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .inner-container .makeUp .main-con .btm-con .list-con{
+  display: flex;
+  justify-content: left;
+  padding: 10px 0.5208vw;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.449);
+}
+.container .inner-container .makeUp .main-con .btm-con .list-con select{
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  font-family: 'Pretendard-Regular';
+  width: 200px;
+  padding: 10px 0;
+  height: auto;
+  text-indent: 10px;
+  background-image: url("https://img.icons8.com/material-rounded/24/000000/expand-arrow.png");
+  background-repeat: no-repeat;
+  background-position: 96% center;
+  cursor: pointer;
+  margin-right: 2.6041vw;
+}
+
+.container .inner-container .makeUp .main-con .btm-con .list-con>ul{
+  flex: 0 1 625px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.container .inner-container .makeUp .main-con .btm-con .list-con ul>li{
+  height: auto;
+  font-family: 'Pretendard-Regular';
+  font-size: 1.6rem;
+  line-height: 3.8rem;
+}
+.container .inner-container .makeUp .main-con .btm-con .conduct-con{
+  width: 100%;
+  height: auto;
+  padding: 20px 0.5208vw;
+  box-sizing: border-box;
+}
+.container .inner-container .makeUp .main-con .btm-con .conduct-con>ul{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.container .inner-container .makeUp .main-con .btm-con .conduct-con>ul>li{
+  width: 24.5%;
+  height: auto;
+  border: 1px solid rgba(50, 50, 50, 0.425);
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .inner-container .makeUp .main-con .btm-con .conduct-con>ul>li>a .heart{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: right;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.container .inner-container .makeUp .main-con .btm-con .conduct-con>ul>li>a .heart>img{
+  width: 30px;
+  height: auto;
+  display: block;
+}
+.container .inner-container .makeUp .main-con .btm-con .conduct-con>ul>li>a .picture-con{
+  overflow: hidden;
+}
+.container .inner-container .makeUp .main-con .btm-con .conduct-con>ul>li>a .picture-con img{
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: all 0.3s;
+}
+.container .inner-container .makeUp .main-con .btm-con .conduct-con>ul>li>a .picture-con img:hover{
+  transform: scale(1.1);
+}
+.container .inner-container .makeUp .main-con .btm-con .conduct-con>ul>li img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.container .inner-container .makeUp .main-con .btm-con .conduct-con ul li .bestNew{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: left;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.container .inner-container .makeUp .main-con .btm-con .conduct-con ul li .bestNew .bestFit{
+  width: 50px;
+  height: auto;
+  background-color: rgb(50, 50, 50);
+  color: white;
+  font-family: 'Pretendard-ExtraLight';
+  font-size: 1.4rem;
+  line-height: 2rem;
+  text-align: center;
+  margin-right: 5px;
+}
+.container .inner-container .makeUp .main-con .btm-con .conduct-con ul li .bestNew .NewFit{
+  width: 50px;
+  height: auto;
+  background-color: white;
+  color: rgb(50, 50, 50);
+  border: 1px solid rgb(50, 50, 50);
+  font-family: 'Pretendard-ExtraLight';
+  font-size: 1.4rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.container .inner-container .makeUp .main-con .btm-con .conduct-con ul li .title-name{
+  font-family: 'Pretendard-Regular';
+  font-size: 2rem;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+.container .inner-container .makeUp .main-con .btm-con .conduct-con ul li .title-desc{
+  font-family: 'Pretendard-Regular';
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 0px 20px 15px 20px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container .inner-container .makeUp .main-con .btm-con .conduct-con .plus-con{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+.container .inner-container .makeUp .main-con .btm-con .conduct-con .plus-con button{
+  width: 150px;
+  height: auto;
+  background-color: rgb(50, 50, 50);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0);
+  font-family: 'Pretendard-Regular';
+  font-size: 2rem;
+  line-height: 4rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin: 0 auto;
+}
+.container .inner-container .makeUp .main-con .btm-con .conduct-con .plus-con button:hover{
+  background-color: white;
+  color:rgb(50, 50, 50);
+  border: 1px solid rgb(50, 50, 50);
+}
+
+.topArrow{
+  width: 65px;
+  height: 65px;
+  background-color: #ffffff00;
+  position: fixed;
+  bottom: 30px;
+  right: 15px;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  z-index: 99999;
+}
+
+.topArrow img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.topArrow-ani{
+  width: 65px;
+  height: 65px;
+  background-color: #f3acb3;
+  position: fixed;
+  bottom: 30px;
+  right: 15px;
+  cursor: pointer;
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
+
+/*태블릿버전*/
+@media only screen and (max-width:1019px) {
+
+  .container {
+    padding-top: 70px;
+  }
+
+  .container .inner-container .makeUp .main-con .btm-con .list-con>ul {
+    flex: 0 1 1000px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .container .inner-container .makeUp .main-con .btm-con .list-con ul>li {
+    width: 15%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .container .inner-container .makeUp .main-con .btm-con .list-con ul>li:nth-child(4){
+    width: 28%;
+  }
+
+
+
+  .container .inner-container .makeUp .main-con .btm-con .conduct-con>ul>li {
+    width: 49.5%;
+  }
+
+
+}
+
+/*모바일버전*/
+@media only screen and (max-width:680px) {
+
+  .container .inner-container .makeUp .main-con .btm-con .list-con{
+    flex-direction: column;
+  }
+  .container .inner-container .makeUp .main-con .btm-con .list-con>ul {
+    flex: 0 0 0px;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .container .inner-container .makeUp .main-con .btm-con .list-con ul>li {
+    width: 15%;
+  }
+  .container .inner-container .makeUp .main-con .btm-con .list-con ul>li:nth-child(4){
+    width: 28%;
+  }
+
+  .container .inner-container .makeUp .main-con .btm-con .conduct-con>ul>li {
+    width: 100%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
